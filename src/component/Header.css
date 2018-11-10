@@ -1,0 +1,13 @@
+.Header {
+    width: 100%;
+    background-color: #eeeeee;
+    color: #202020;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .Header p {
+      margin: 0 30px
+  }

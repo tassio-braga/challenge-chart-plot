@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
+import Header from "./component/Header.js";
 
 class App extends Component {
   render() {
     return (
-      <div className="App"> </div>
+      <Header name="Tassio" ref={instance => {this.header = instance;}}/>
     );
   }
 }
