@@ -1,0 +1,22 @@
+
+/*
+*Resizable container
+*Position set to relative so that the handle can pinned to the bottom
+*/
+.react-resizable{
+    position: relative;
+}
+
+/*
+* Resizable handle
+* Pinned to the bottom of containder with bottom: 0 and absolute position
+*/
+.react-resizable-handle{
+    position: absolute;
+    bottom: 0;
+    background-color: #151515;
+    height: 5px;
+    width: 100%;
+    cursor: ns-resize;
+    display: box;
+}
