@@ -1,3 +1,10 @@
+## Usage
+
+cd challenge-chart-plot <br>
+`npm install` <br>
+`npm start`
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
