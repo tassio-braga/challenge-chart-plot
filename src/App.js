@@ -3,6 +3,7 @@ import Header from "./component/Header.js";
 import Editor from "./component/Editor.js";
 
 class App extends Component {
+  dataSetParser = new DataSetParser();
   render() {
     return (
       <div>
